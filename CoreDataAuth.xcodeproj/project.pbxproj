@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		1A828A2C246855F200B0E65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A2B246855F200B0E65A /* AppDelegate.swift */; };
 		1A828A2E246855F200B0E65A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A2D246855F200B0E65A /* SceneDelegate.swift */; };
-		1A828A30246855F200B0E65A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A2F246855F200B0E65A /* ViewController.swift */; };
 		1A828A33246855F200B0E65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A828A31246855F200B0E65A /* Main.storyboard */; };
 		1A828A36246855F200B0E65A /* CoreDataAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A34246855F200B0E65A /* CoreDataAuth.xcdatamodeld */; };
 		1A828A38246855F300B0E65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A828A37246855F300B0E65A /* Assets.xcassets */; };
 		1A828A3B246855F300B0E65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A828A39246855F300B0E65A /* LaunchScreen.storyboard */; };
+		1A828A432468563100B0E65A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A422468563100B0E65A /* LoginViewController.swift */; };
+		1A828A4524685B0400B0E65A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A4424685B0400B0E65A /* RegisterViewController.swift */; };
+		1A828A472468656300B0E65A /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A828A462468656300B0E65A /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A828A28246855F200B0E65A /* CoreDataAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A828A2B246855F200B0E65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A828A2D246855F200B0E65A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A828A2F246855F200B0E65A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A828A32246855F200B0E65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A828A35246855F200B0E65A /* CoreDataAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataAuth.xcdatamodel; sourceTree = "<group>"; };
 		1A828A37246855F300B0E65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A828A3A246855F300B0E65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A828A3C246855F300B0E65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A828A422468563100B0E65A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1A828A4424685B0400B0E65A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1A828A462468656300B0E65A /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				1A828A2B246855F200B0E65A /* AppDelegate.swift */,
 				1A828A2D246855F200B0E65A /* SceneDelegate.swift */,
-				1A828A2F246855F200B0E65A /* ViewController.swift */,
 				1A828A31246855F200B0E65A /* Main.storyboard */,
 				1A828A37246855F300B0E65A /* Assets.xcassets */,
 				1A828A39246855F300B0E65A /* LaunchScreen.storyboard */,
 				1A828A3C246855F300B0E65A /* Info.plist */,
 				1A828A34246855F200B0E65A /* CoreDataAuth.xcdatamodeld */,
+				1A828A422468563100B0E65A /* LoginViewController.swift */,
+				1A828A4424685B0400B0E65A /* RegisterViewController.swift */,
+				1A828A462468656300B0E65A /* MyTableViewController.swift */,
 			);
 			path = CoreDataAuth;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A828A30246855F200B0E65A /* ViewController.swift in Sources */,
+				1A828A432468563100B0E65A /* LoginViewController.swift in Sources */,
+				1A828A472468656300B0E65A /* MyTableViewController.swift in Sources */,
+				1A828A4524685B0400B0E65A /* RegisterViewController.swift in Sources */,
 				1A828A2C246855F200B0E65A /* AppDelegate.swift in Sources */,
 				1A828A36246855F200B0E65A /* CoreDataAuth.xcdatamodeld in Sources */,
 				1A828A2E246855F200B0E65A /* SceneDelegate.swift in Sources */,
